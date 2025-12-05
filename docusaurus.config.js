@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Customer Review of Maestro Renovation',
   tagline: '',
-  favicon: 'img/favicon.ico',
+  // favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -20,12 +20,12 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'http://maestro-renovation-review.com/',
+  url: 'https://maestro-renovation-review.com/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
-
-  
+ organizationName: "dmitryvinn",
+  projectName: "site-review",
 
   onBrokenLinks: 'throw',
 
@@ -44,6 +44,10 @@ const config = {
       ({
         theme: {
           customCss: './src/css/custom.css',
+        },
+         gtag: {
+          trackingID: 'G-BXRFFKKMM0',
+          anonymizeIP: true,
         },
       }),
     ],
