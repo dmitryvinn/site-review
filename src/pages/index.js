@@ -112,6 +112,7 @@ function HomepageHeader() {
         </Box> */}
         <p className="hero__subtitle">{siteConfig.tagline}</p>
               <h1 className="hero__title">Photo Gallery (In Progress)</h1>
+          <h2>Some of the images are of the construction in progress</h2>
       </div>
     </header>
   );
