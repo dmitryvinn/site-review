@@ -67,10 +67,10 @@ const config = {
           
         ],
       },
-      footer: {
-        style: 'dark',
-        copyright: `This is an independent consumer review site. It is not affiliated with Maestro Renovation.`,
-      },
+      // footer: {
+      //   style: 'dark',
+      //   copyright: `This is an independent consumer review site. It is not affiliated with Maestro Renovation.`,
+      // },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
