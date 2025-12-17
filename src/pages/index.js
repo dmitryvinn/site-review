@@ -395,6 +395,28 @@ However, the final result did not match what we had clearly requested, and they 
 
 <br></br>
 <br></br>
+<h3>Caulking</h3>
+
+<p>Proper caulking is an essential part of any renovation. It prevents moisture and dirt from getting into cracks and makes things look complete. Unfortunately, the caulking work did not hold up and required multiple re-applications, which caused additional stress and ultimately led me to redo some of it myself.
+
+Here is an example of caulking around a bathtub. Their team had to redo this caulking several times over a span of approximately six months:
+</p>
+ <center><img src="img/content/IMG_2077.jpg" alt="" width="500"/>
+<p style={{fontStyle: 'italic',
+  color: 'grey'}}> 
+    Caulking around the bathtub that had to be redone several times over six months
+   </p>
+</center>
+<p>Here is another example of silicone applied to a tile in front of the fireplace, where the material began peeling off within approximately one month:
+</p>
+<center><img src="img/content/IMG_2076.jpg" alt="" width="500"/>
+<p style={{fontStyle: 'italic',
+  color: 'grey'}}> 
+    Silicone caulking that began peeling off within one month
+   </p>
+</center>
+<br></br>
+<br></br>
 <h3>Straightening Walls</h3>
 
 <p>While working on the 2nd floor, they demolished a wall closet to expand the room. It had a sloped ceiling, which had to be extended. Unfortunately, I fully relied on the contractor to do the work and only noticed that the extension was not straight after the walls and ceiling already been painted. Here is the final product:
