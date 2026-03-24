@@ -4,7 +4,6 @@ import path from "node:path";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: "/site-review-renewed/",
   plugins: [react( ), tailwindcss()],
   resolve: {
     alias: {
