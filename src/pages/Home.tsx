@@ -40,7 +40,7 @@ export default function Home() {
         <article itemScope itemType="https://schema.org/Review">
           {/* Hidden structured data attributes for SEO */}
           <meta itemProp="datePublished" content="2025-01-01" />
-          <meta itemProp="dateModified" content="2026-03-23" />
+          <meta itemProp="dateModified" content="2026-04-07" />
           <div itemProp="itemReviewed" itemScope itemType="https://schema.org/HomeAndConstructionBusiness">
             <meta itemProp="name" content="Maestro Renovation LLC" />
             <meta itemProp="url" content="https://maestro-renovation.com" />

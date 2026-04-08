@@ -3,53 +3,149 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.maestro-renovation-review.com/</loc>
-    <lastmod>2026-03-23</lastmod>
+    <lastmod>2026-04-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+
+    <!-- 1. Licenses and Permits -->
     <image:image>
       <image:loc>https://www.maestro-renovation-review.com/img/content/no-permit.png</image:loc>
       <image:caption>Stop Work Order issued by City of Watertown due to lack of permits for Maestro Renovation project</image:caption>
-      <image:title>Maestro Renovation Stop Work Order</image:title>
+      <image:title>Maestro Renovation Stop Work Order — Fig. A</image:title>
     </image:image>
+
+    <!-- 3. Incorrect Plumbing -->
     <image:image>
       <image:loc>https://www.maestro-renovation-review.com/img/content/IMG_0829.jpg</image:loc>
       <image:caption>Incorrect piping that had to be later fixed by a licensed plumber</image:caption>
-      <image:title>Maestro Renovation Incorrect Plumbing</image:title>
+      <image:title>Maestro Renovation Incorrect Plumbing — Fig. C</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.maestro-renovation-review.com/img/content/IMG_2062.jpg</image:loc>
       <image:caption>Piping after inspection and correction by a licensed plumber</image:caption>
-      <image:title>Corrected Plumbing After Licensed Plumber Inspection</image:title>
+      <image:title>Corrected Plumbing After Licensed Plumber Inspection — Fig. D</image:title>
     </image:image>
+
+    <!-- 4. Forgetting to Turn Off the Water -->
     <image:image>
       <image:loc>https://www.maestro-renovation-review.com/img/content/IMG_0825.jpg</image:loc>
-      <image:caption>Water pouring down the wall because the pipe was cut and the water wasn't turned off</image:caption>
-      <image:title>Maestro Renovation Water Damage from Unsecured Pipe</image:title>
+      <image:caption>Water pouring down the wall because the pipe was cut and the water was not turned off</image:caption>
+      <image:title>Maestro Renovation Water Damage from Unsecured Pipe — Fig. E</image:title>
     </image:image>
+
+    <!-- 5. Electrical Scare -->
     <image:image>
       <image:loc>https://www.maestro-renovation-review.com/img/content/IMG_2058.jpg</image:loc>
-      <image:caption>Copper pipe with a hole patched caused by an unsecured electrical wire</image:caption>
-      <image:title>Electrical Hazard from Maestro Renovation Work</image:title>
+      <image:caption>Copper pipe with a hole patched caused by an unsecured electrical wire touching it</image:caption>
+      <image:title>Electrical Hazard from Maestro Renovation Work — Fig. F</image:title>
     </image:image>
     <image:image>
       <image:loc>https://www.maestro-renovation-review.com/img/content/IMG_2059.jpg</image:loc>
       <image:caption>Wire that was originally left unsecured and caused the hole in the copper pipe</image:caption>
-      <image:title>Unsecured Electrical Wire from Maestro Renovation</image:title>
+      <image:title>Unsecured Electrical Wire from Maestro Renovation — Fig. G</image:title>
     </image:image>
+
+    <!-- 6. Flooring -->
     <image:image>
       <image:loc>https://www.maestro-renovation-review.com/img/content/1.jpg</image:loc>
       <image:caption>Flooring installation as seen from underneath showing quality issues</image:caption>
-      <image:title>Maestro Renovation Flooring Quality Issues</image:title>
+      <image:title>Maestro Renovation Flooring Quality Issues — Fig. H</image:title>
     </image:image>
     <image:image>
-      <image:loc>https://www.maestro-renovation-review.com/img/content/shelf.png</image:loc>
-      <image:caption>Shower shelf on the 1st floor that is too small and doesn't match the one on the 2nd floor</image:caption>
-      <image:title>Maestro Renovation Tiling and Shelf Issues</image:title>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/IMG_2064.jpg</image:loc>
+      <image:caption>Flooring installation as seen from underneath</image:caption>
+      <image:title>Maestro Renovation Flooring Issues — Fig. I</image:title>
     </image:image>
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/IMG_2065.jpg</image:loc>
+      <image:caption>Flooring installation as seen from underneath</image:caption>
+      <image:title>Maestro Renovation Flooring Issues — Fig. J</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/IMG_1972.jpg</image:loc>
+      <image:caption>Flooring installation as seen from underneath</image:caption>
+      <image:title>Maestro Renovation Flooring Issues — Fig. K</image:title>
+    </image:image>
+
+    <!-- 7. Garbage Disposal -->
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/IMG_2069.jpg</image:loc>
+      <image:caption>Parking lot with garbage and storage bins</image:caption>
+      <image:title>Maestro Renovation Garbage Disposal — Fig. L</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/IMG_2071.jpg</image:loc>
+      <image:caption>Garbage mistakenly placed in a storage bin instead of trash bins</image:caption>
+      <image:title>Maestro Renovation Garbage Disposal — Fig. M</image:title>
+    </image:image>
+
+    <!-- 8. Trims and Baseboards -->
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/6%202.jpg</image:loc>
+      <image:caption>Trim around the fireplace that was not properly aligned</image:caption>
+      <image:title>Maestro Renovation Trims and Baseboards — Fig. N</image:title>
+    </image:image>
+
+    <!-- 9. Tiling -->
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/shelf.png</image:loc>
+      <image:caption>Shower shelf on the 1st floor that is too small and does not match the one on the 2nd floor</image:caption>
+      <image:title>Maestro Renovation Tiling and Shelf Issues — Fig. O</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/IMG_1300.jpeg</image:loc>
+      <image:caption>Shower shelf side view with single tile slabbed to cover the side</image:caption>
+      <image:title>Maestro Renovation Tiling Issues — Fig. P</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/2.jpg</image:loc>
+      <image:caption>Shower shelf on the 1st floor after rework with damaged tile</image:caption>
+      <image:title>Maestro Renovation Tiling Rework — Fig. Q</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/IMG_2060.jpg</image:loc>
+      <image:caption>Shower shelf on the 1st floor after rework with spots still needing attention</image:caption>
+      <image:title>Maestro Renovation Tiling Rework — Fig. R</image:title>
+    </image:image>
+
+    <!-- 10. Repainting Door -->
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/12%202.jpg</image:loc>
+      <image:caption>Door that had to be repainted multiple times due to paint getting stuck to the doorframe</image:caption>
+      <image:title>Maestro Renovation Repainting Door — Fig. S</image:title>
+    </image:image>
+
+    <!-- 11. Why Fix If You Will Just Break It -->
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/15%202.jpg</image:loc>
+      <image:caption>Indentation on the front door trim that was just painted over instead of being fixed</image:caption>
+      <image:title>Maestro Renovation Door Trim Damage — Fig. T</image:title>
+    </image:image>
+
+    <!-- 12. Caulking -->
     <image:image>
       <image:loc>https://www.maestro-renovation-review.com/img/content/IMG_2077.jpg</image:loc>
       <image:caption>Caulking around the bathtub that had to be redone several times over six months</image:caption>
-      <image:title>Maestro Renovation Poor Caulking Work</image:title>
+      <image:title>Maestro Renovation Poor Caulking Work — Fig. U</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/IMG_2076.jpg</image:loc>
+      <image:caption>Silicone caulking that began peeling off within one month</image:caption>
+      <image:title>Maestro Renovation Peeling Caulking — Fig. V</image:title>
+    </image:image>
+
+    <!-- 13. Straightening Walls -->
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/10.jpg</image:loc>
+      <image:caption>Wall that was not straight after being extended</image:caption>
+      <image:title>Maestro Renovation Wall Straightening — Fig. W</image:title>
+    </image:image>
+
+    <!-- 14. Siding -->
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/17%202.jpg</image:loc>
+      <image:caption>Siding that was cut and installed to fill the gap after window replacement</image:caption>
+      <image:title>Maestro Renovation Siding Issues — Fig. X</image:title>
     </image:image>
   </url>
 </urlset>
