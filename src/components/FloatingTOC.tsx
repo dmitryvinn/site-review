@@ -2,14 +2,16 @@
  * FloatingTOC — Clean Deposition design.
  * A minimal floating table of contents on the left margin (desktop only).
  * Shows section numbers as small dots/numbers. Appears after scrolling past hero.
+ * i18n: Uses useContent() for locale-aware labels and section titles.
  */
 
 import { useEffect, useState } from "react";
-import { sections } from "@/lib/reviewData";
+import { useContent } from "@/lib/useContent";
 
 export function FloatingTOC() {
   const [visible, setVisible] = useState(false);
   const [activeIdx, setActiveIdx] = useState(-1);
+  const { sections, ui } = useContent();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -38,14 +40,14 @@ export function FloatingTOC() {
       observer.disconnect();
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []);
+  }, [sections]);
 
   if (!visible) return null;
 
   return (
     <nav
       className="hidden xl:flex fixed left-6 top-1/2 -translate-y-1/2 z-30 flex-col gap-2"
-      aria-label="Section navigation"
+      aria-label={ui.sectionNavigation}
     >
       {sections.map((section, idx) => (
         <a
@@ -53,7 +55,7 @@ export function FloatingTOC() {
           href={`#${section.id}`}
           className="group flex items-center gap-2"
           title={section.title}
-          aria-label={`Navigate to section: ${section.title}`}
+          aria-label={`${ui.navigateToSection} ${section.title}`}
         >
           <span
             className={`w-2 h-2 rounded-full transition-all duration-200 ${

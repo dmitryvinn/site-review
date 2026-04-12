@@ -2,11 +2,13 @@
  * ReviewSection — Clean Deposition design with SEO-optimized semantic HTML.
  * Each section is a proper <section> with h2 heading for crawlers.
  * Figures use <figure>/<figcaption> (already in ExhibitCard).
+ * i18n: Uses useContent() for locale-aware labels.
  */
 
 import type { ReviewSection as ReviewSectionType } from "@/lib/reviewData";
 import { ExhibitCard } from "./ExhibitCard";
 import { SeverityBadge } from "./SeverityBadge";
+import { useContent } from "@/lib/useContent";
 
 interface ReviewSectionProps {
   section: ReviewSectionType;
@@ -14,6 +16,7 @@ interface ReviewSectionProps {
 }
 
 export function ReviewSectionBlock({ section, index }: ReviewSectionProps) {
+  const { ui } = useContent();
   const exhibitInsertPoints = getExhibitInsertPoints(
     section.content.length,
     section.exhibits.length
@@ -23,7 +26,7 @@ export function ReviewSectionBlock({ section, index }: ReviewSectionProps) {
     <section
       id={section.id}
       className="scroll-mt-16"
-      aria-label={`Issue ${index + 1}: ${section.title}`}
+      aria-label={`${ui.issuePrefix} ${index + 1}: ${section.title}`}
     >
       {/* Divider */}
       <div className="reading-col">

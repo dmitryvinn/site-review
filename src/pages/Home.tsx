@@ -11,6 +11,8 @@
  *
  * SEO: Uses <main>, <article>, <section>, <nav>, proper heading hierarchy,
  * descriptive aria-labels, and structured content for crawlers.
+ *
+ * i18n: Uses useContent() hook for EN/RU bilingual support.
  */
 
 import { ReadingProgress } from "@/components/ReadingProgress";
@@ -19,19 +21,21 @@ import { MobileNav } from "@/components/MobileNav";
 import { SummaryBar } from "@/components/SummaryBar";
 import { ReviewSectionBlock } from "@/components/ReviewSection";
 import { ScrollToTop } from "@/components/ScrollToTop";
-import {
-  siteInfo,
-  introContent,
-  overallExperience,
-  sections,
-} from "@/lib/reviewData";
+import { LanguageToggle } from "@/components/LanguageToggle";
+import { useContent } from "@/lib/useContent";
 import { Scale } from "lucide-react";
 
 export default function Home() {
+  const { siteInfo, introContent, overallExperience, pullQuote, sections, ui } =
+    useContent();
+
   return (
     <div className="min-h-screen bg-white">
       {/* Reading progress bar */}
       <ReadingProgress />
+
+      {/* Language toggle */}
+      <LanguageToggle />
 
       {/* Floating dot navigation — XL only */}
       <FloatingTOC />
@@ -40,7 +44,7 @@ export default function Home() {
         <article itemScope itemType="https://schema.org/Review">
           {/* Hidden structured data attributes for SEO */}
           <meta itemProp="datePublished" content="2025-01-01" />
-          <meta itemProp="dateModified" content="2026-04-07" />
+          <meta itemProp="dateModified" content="2026-04-12" />
           <div itemProp="itemReviewed" itemScope itemType="https://schema.org/HomeAndConstructionBusiness">
             <meta itemProp="name" content="Maestro Renovation LLC" />
             <meta itemProp="url" content="https://maestro-renovation.com" />
@@ -63,12 +67,12 @@ export default function Home() {
             <div className="reading-col">
               {/* Kicker */}
               <p className="font-[var(--font-mono)] text-[0.8rem] font-medium tracking-[0.12em] text-[oklch(0.45_0.02_255)] mb-6">
-                INDEPENDENT CUSTOMER REVIEW &middot; WATERTOWN, MA
+                {ui.independentReview} &middot; {ui.location}
               </p>
 
               {/* Title — h1 is the single most important SEO element */}
               <h1 className="text-5xl sm:text-6xl lg:text-7xl text-[oklch(0.10_0.02_255)] mb-4 leading-[1.05]" itemProp="name">
-                Customer Review of{" "}
+                {ui.customerReviewOf}{" "}
                 <span className="italic">Maestro Renovation</span>
               </h1>
 
@@ -117,10 +121,10 @@ export default function Home() {
           </section>
 
           {/* Overall Experience */}
-          <section className="reading-col" id="overall-experience" aria-label="Overall Experience">
+          <section className="reading-col" id="overall-experience" aria-label={ui.theOverallExperience}>
             <hr className="clean-rule" />
             <h2 className="text-4xl sm:text-5xl text-[oklch(0.05_0.02_255)] mb-8">
-              The Overall Experience
+              {ui.theOverallExperience}
             </h2>
             {overallExperience.map((p, i) => (
               <p
@@ -134,8 +138,7 @@ export default function Home() {
             {/* Pull quote */}
             <blockquote className="my-10 pl-6 border-l-2 border-[oklch(0.35_0.03_255)]">
               <p className="text-3xl sm:text-4xl font-[var(--font-heading)] italic text-[oklch(0.10_0.02_255)] leading-snug">
-                &ldquo;I had to monitor everything daily and call the company&rsquo;s owner
-                several times a day.&rdquo;
+                &ldquo;{pullQuote}&rdquo;
               </p>
             </blockquote>
           </section>
@@ -156,11 +159,7 @@ export default function Home() {
             <hr className="clean-rule" />
             <div className="px-5 py-4 bg-[oklch(0.985_0.002_255)] border border-[oklch(0.91_0.005_255)] rounded-lg mb-16">
               <p className="text-base text-[oklch(0.35_0.02_255)] leading-relaxed">
-                This review may be updated as additional details come to mind. All
-                photographs and videos shown are original, unedited documentation of
-                the work performed. This page exists solely to share one homeowner&rsquo;s
-                experience and is not affiliated with, endorsed by, or sponsored by
-                Maestro Renovation in any way.
+                {ui.closingNote}
               </p>
             </div>
           </section>
@@ -176,12 +175,12 @@ export default function Home() {
                 {siteInfo.title}
               </p>
               <p className="text-sm text-[oklch(0.45_0.02_255)] mt-0.5">
-                Independent review &middot; Not affiliated with{" "}
+                {ui.independentReviewFooter} &middot; {ui.notAffiliatedWith}{" "}
                 {siteInfo.company}
               </p>
             </div>
             <p className="text-sm text-[oklch(0.45_0.02_255)]">
-              &copy; {new Date().getFullYear()} All rights reserved
+              &copy; {new Date().getFullYear()} {ui.allRightsReserved}
             </p>
           </div>
         </div>

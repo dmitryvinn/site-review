@@ -1,24 +1,26 @@
 /*
  * MobileNav — Clean Deposition design.
  * Clean collapsible section list for mobile/tablet.
+ * i18n: Uses useContent() for locale-aware labels and section titles.
  */
 
 import { useState } from "react";
-import { sections } from "@/lib/reviewData";
+import { useContent } from "@/lib/useContent";
 import { ChevronDown, List } from "lucide-react";
 
 export function MobileNav() {
   const [isOpen, setIsOpen] = useState(false);
+  const { sections, ui } = useContent();
 
   return (
-    <nav className="xl:hidden reading-col mt-6" aria-label="Table of contents">
+    <nav className="xl:hidden reading-col mt-6" aria-label={ui.tableOfContents}>
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="w-full flex items-center justify-between px-4 py-3 bg-[oklch(0.985_0.002_255)] border border-[oklch(0.91_0.005_255)] rounded-lg text-[oklch(0.35_0.03_255)] hover:bg-[oklch(0.96_0.003_255)] transition-colors"
       >
         <span className="flex items-center gap-2 text-base font-medium">
           <List size={16} />
-          Table of Contents
+          {ui.tableOfContents}
         </span>
         <ChevronDown
           size={16}

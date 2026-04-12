@@ -1,20 +1,23 @@
 /*
  * SummaryBar — Clean Deposition design.
  * Minimal stats row with monospaced numbers on a subtle surface.
+ * i18n: Uses useContent() for locale-aware labels.
  */
 
-import { summaryStats } from "@/lib/reviewData";
+import { useContent } from "@/lib/useContent";
 
 export function SummaryBar() {
+  const { summaryStats, ui } = useContent();
+
   const stats = [
-    { value: summaryStats.totalIssues, label: "Issues Documented" },
-    { value: summaryStats.criticalIssues, label: "Critical", accent: true },
-    { value: summaryStats.majorIssues, label: "Major" },
-    { value: summaryStats.totalExhibits, label: "Exhibits" },
+    { value: summaryStats.totalIssues, label: ui.issuesDocumented },
+    { value: summaryStats.criticalIssues, label: ui.critical, accent: true },
+    { value: summaryStats.majorIssues, label: ui.major },
+    { value: summaryStats.totalExhibits, label: ui.exhibits },
   ];
 
   return (
-    <div className="reading-col py-8" role="region" aria-label="Review summary statistics">
+    <div className="reading-col py-8" role="region" aria-label={ui.issuesDocumented}>
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 py-6 px-6 bg-[oklch(0.985_0.002_255)] border border-[oklch(0.91_0.005_255)] rounded-lg">
         {stats.map(({ value, label, accent }) => (
           <div key={label} className="text-center">

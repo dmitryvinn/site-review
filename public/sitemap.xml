@@ -3,7 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.maestro-renovation-review.com/</loc>
-    <lastmod>2026-04-07</lastmod>
+    <lastmod>2026-04-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
 
@@ -14,7 +14,7 @@
       <image:title>Maestro Renovation Stop Work Order — Fig. A</image:title>
     </image:image>
 
-    <!-- 3. Incorrect Plumbing -->
+    <!-- 3. Plumbing Issues -->
     <image:image>
       <image:loc>https://www.maestro-renovation-review.com/img/content/IMG_0829.jpg</image:loc>
       <image:caption>Incorrect piping that had to be later fixed by a licensed plumber</image:caption>
@@ -33,7 +33,7 @@
       <image:title>Maestro Renovation Water Damage from Unsecured Pipe — Fig. E</image:title>
     </image:image>
 
-    <!-- 5. Electrical Scare -->
+    <!-- 5. Electrical Incident -->
     <image:image>
       <image:loc>https://www.maestro-renovation-review.com/img/content/IMG_2058.jpg</image:loc>
       <image:caption>Copper pipe with a hole patched caused by an unsecured electrical wire touching it</image:caption>
@@ -146,6 +146,155 @@
       <image:loc>https://www.maestro-renovation-review.com/img/content/17%202.jpg</image:loc>
       <image:caption>Siding that was cut and installed to fill the gap after window replacement</image:caption>
       <image:title>Maestro Renovation Siding Issues — Fig. X</image:title>
+    </image:image>
+  </url>
+
+  <!-- Russian version -->
+  <url>
+    <loc>https://www.maestro-renovation-review.com/ru</loc>
+    <lastmod>2026-04-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+
+    <!-- 1. Лицензии и разрешения -->
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/no-permit.png</image:loc>
+      <image:caption>Предписание о приостановке работ (Stop-Work Order), выданное городом Watertown из-за отсутствия разрешений</image:caption>
+      <image:title>Maestro Renovation — Предписание о приостановке работ — Рис. A</image:title>
+    </image:image>
+
+    <!-- 3. Проблемы с сантехникой -->
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/IMG_0829.jpg</image:loc>
+      <image:caption>Неправильная разводка труб, которую впоследствии пришлось исправлять лицензированному сантехнику</image:caption>
+      <image:title>Maestro Renovation — Проблемы с сантехникой — Рис. C</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/IMG_2062.jpg</image:loc>
+      <image:caption>Трубы после проверки и исправления лицензированным сантехником</image:caption>
+      <image:title>Maestro Renovation — Исправленная сантехника — Рис. D</image:title>
+    </image:image>
+
+    <!-- 4. Забыли перекрыть воду -->
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/IMG_0825.jpg</image:loc>
+      <image:caption>Вода, стекающая по стене из-за обрезанной трубы при неперекрытом кране</image:caption>
+      <image:title>Maestro Renovation — Повреждение водой — Рис. E</image:title>
+    </image:image>
+
+    <!-- 5. Инцидент с электричеством -->
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/IMG_2058.jpg</image:loc>
+      <image:caption>Медная труба с залатанным отверстием от незакреплённого электрического провода</image:caption>
+      <image:title>Maestro Renovation — Инцидент с электричеством — Рис. F</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/IMG_2059.jpg</image:loc>
+      <image:caption>Провод, который изначально не был закреплён и вызвал отверстие в медной трубе</image:caption>
+      <image:title>Maestro Renovation — Незакреплённый провод — Рис. G</image:title>
+    </image:image>
+
+    <!-- 6. Напольное покрытие -->
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/1.jpg</image:loc>
+      <image:caption>Укладка напольного покрытия, вид снизу — проблемы с качеством</image:caption>
+      <image:title>Maestro Renovation — Проблемы с полом — Рис. H</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/IMG_2064.jpg</image:loc>
+      <image:caption>Укладка напольного покрытия, вид снизу</image:caption>
+      <image:title>Maestro Renovation — Проблемы с полом — Рис. I</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/IMG_2065.jpg</image:loc>
+      <image:caption>Укладка напольного покрытия, вид снизу</image:caption>
+      <image:title>Maestro Renovation — Проблемы с полом — Рис. J</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/IMG_1972.jpg</image:loc>
+      <image:caption>Укладка напольного покрытия, вид снизу</image:caption>
+      <image:title>Maestro Renovation — Проблемы с полом — Рис. K</image:title>
+    </image:image>
+
+    <!-- 7. Вывоз мусора -->
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/IMG_2069.jpg</image:loc>
+      <image:caption>Парковка с мусорными и хозяйственными контейнерами</image:caption>
+      <image:title>Maestro Renovation — Вывоз мусора — Рис. L</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/IMG_2071.jpg</image:loc>
+      <image:caption>Мусор, ошибочно помещённый в хозяйственный контейнер вместо мусорного</image:caption>
+      <image:title>Maestro Renovation — Вывоз мусора — Рис. M</image:title>
+    </image:image>
+
+    <!-- 8. Наличники и плинтусы -->
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/6%202.jpg</image:loc>
+      <image:caption>Наличник вокруг камина, который не был должным образом выровнен</image:caption>
+      <image:title>Maestro Renovation — Наличники и плинтусы — Рис. N</image:title>
+    </image:image>
+
+    <!-- 9. Плитка -->
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/shelf.png</image:loc>
+      <image:caption>Полка в душе на 1-м этаже, которая слишком мала и не соответствует полке на 2-м этаже</image:caption>
+      <image:title>Maestro Renovation — Проблемы с плиткой — Рис. O</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/IMG_1300.jpeg</image:loc>
+      <image:caption>Вид сбоку на полку в душе — одна плитка наклеена для закрытия торца</image:caption>
+      <image:title>Maestro Renovation — Проблемы с плиткой — Рис. P</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/2.jpg</image:loc>
+      <image:caption>Полка в душе на 1-м этаже после переделки с повреждённой плиткой</image:caption>
+      <image:title>Maestro Renovation — Переделка плитки — Рис. Q</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/IMG_2060.jpg</image:loc>
+      <image:caption>Полка в душе на 1-м этаже после переделки — некоторые участки требуют доработки</image:caption>
+      <image:title>Maestro Renovation — Переделка плитки — Рис. R</image:title>
+    </image:image>
+
+    <!-- 10. Перекраска двери -->
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/12%202.jpg</image:loc>
+      <image:caption>Дверь, которую пришлось перекрашивать несколько раз из-за прилипания краски к дверной коробке</image:caption>
+      <image:title>Maestro Renovation — Перекраска двери — Рис. S</image:title>
+    </image:image>
+
+    <!-- 11. «Зачем чинить, если всё равно сломают?» -->
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/15%202.jpg</image:loc>
+      <image:caption>Вмятина на наличнике входной двери, которую просто закрасили вместо того, чтобы исправить</image:caption>
+      <image:title>Maestro Renovation — Повреждение наличника двери — Рис. T</image:title>
+    </image:image>
+
+    <!-- 12. Герметизация -->
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/IMG_2077.jpg</image:loc>
+      <image:caption>Герметик вокруг ванны, который пришлось переделывать несколько раз в течение шести месяцев</image:caption>
+      <image:title>Maestro Renovation — Некачественная герметизация — Рис. U</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/IMG_2076.jpg</image:loc>
+      <image:caption>Силиконовый герметик, который начал отслаиваться в течение одного месяца</image:caption>
+      <image:title>Maestro Renovation — Отслаивающийся герметик — Рис. V</image:title>
+    </image:image>
+
+    <!-- 13. Выравнивание стен -->
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/10.jpg</image:loc>
+      <image:caption>Стена, которая оказалась неровной после расширения</image:caption>
+      <image:title>Maestro Renovation — Выравнивание стен — Рис. W</image:title>
+    </image:image>
+
+    <!-- 14. Сайдинг -->
+    <image:image>
+      <image:loc>https://www.maestro-renovation-review.com/img/content/17%202.jpg</image:loc>
+      <image:caption>Сайдинг, вырезанный и установленный для заполнения зазора после замены окна</image:caption>
+      <image:title>Maestro Renovation — Проблемы с сайдингом — Рис. X</image:title>
     </image:image>
   </url>
 </urlset>

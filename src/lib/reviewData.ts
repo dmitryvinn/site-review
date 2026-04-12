@@ -79,7 +79,7 @@ export const sections: ReviewSection[] = [
   },
   {
     id: "incorrect-plumbing",
-    title: "Incorrect Plumbing",
+    title: "Plumbing Issues",
     severity: "critical",
     content: [
       "One significant challenge in finding a licensed plumber after the city's Stop Work order was that some plumbing work had already been performed before permits were obtained, and a licensed plumber was later required to inspect and correct the installation.",
@@ -117,7 +117,7 @@ export const sections: ReviewSection[] = [
   },
   {
     id: "electrical-scare",
-    title: "Electrical Scare",
+    title: "Electrical Incident",
     severity: "critical",
     content: [
       "As part of the project, they removed a kitchen island that had several outlets. During the demolition process, Maestro Renovation didn't fully disconnect and secure the wire, leaving it hanging in the basement. One day, their workers were working in the basement when one of them touched a wire, which connected to a copper pipe, sparking and making a hole in the pipe. Fortunately, we drained the water fairly quickly, and there wasn't much water damage, but this unsecured wire created a potentially dangerous situation. It's still not fully disconnected, but at least it's isolated:",
