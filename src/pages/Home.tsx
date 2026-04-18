@@ -61,6 +61,9 @@ export default function Home() {
             <meta itemProp="bestRating" content="5" />
             <meta itemProp="worstRating" content="1" />
           </div>
+          <div itemProp="author" itemScope itemType="https://schema.org/Person">
+            <meta itemProp="name" content="Verified Homeowner" />
+          </div>
 
           {/* Hero */}
           <header className="pt-16 sm:pt-24 pb-8" id="overview">
